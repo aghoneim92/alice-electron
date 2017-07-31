@@ -1,0 +1,15 @@
+@import "~normalize.css";
+@import "~mdi/css/materialdesignicons.min.css";
+
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+}
+
+.OS {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+}

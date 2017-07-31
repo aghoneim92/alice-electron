@@ -1,0 +1,49 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "webpack --watch"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "awesome-typescript-loader": "^3.2.2",
+    "css-loader": "^0.28.4",
+    "electron": "^1.6.11",
+    "electron-react-devtools": "^0.4.0",
+    "file-loader": "^0.11.2",
+    "node-sass": "^4.5.3",
+    "resolve-url-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "^0.18.2",
+    "typescript": "^2.4.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.4.1"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.17",
+    "@types/react": "^15.6.0",
+    "@types/react-dom": "^15.5.1",
+    "@types/react-event-listener": "^0.4.4",
+    "@types/systemjs": "^0.20.2",
+    "mdi": "^2.0.46",
+    "normalize.css": "^7.0.0",
+    "react": "^15.6.1",
+    "react-clockwall": "^1.4.7",
+    "react-dom": "^15.6.1",
+    "react-event-listener": "^0.4.5"
+  }
+}

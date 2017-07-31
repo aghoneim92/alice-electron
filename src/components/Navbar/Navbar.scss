@@ -1,0 +1,12 @@
+@import '~react-clockwall/src/styles/main.css';
+@import "../config";
+
+.Navbar {
+  height: $navBarHeight;
+  color: black;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  line-height: 4vh;
+}

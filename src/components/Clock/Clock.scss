@@ -1,0 +1,21 @@
+.clock {
+  color: rgba(0,0,0,0.3);
+  padding: 0;
+  min-width: initial;
+  .time {
+    font-size: 1.4em;
+    margin: 0;
+    padding: 0;
+  }
+
+  &-wrapper {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.is-opened {
+      height: 500px;
+    }
+  }
+}
