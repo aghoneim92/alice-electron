@@ -11,29 +11,20 @@ interface ClockProps {
 }
 
 export class Clock extends React.Component<ClockProps> {
-  state = {
-    opened: false,
-  }
-
-  handleClick = () => {
-    this.setState({
-      opened: !this.state.opened,
-    })
-  }
 
   render() {
-    const { opened } = this.state
-
     return (
       <div
-        className={`clock-wrapper${opened ? ' is-opened' : ''}`}
-        onClick={this.handleClick}
+        className={`clock-wrapper`}
       >
         <ReactClockWall
           config={{
             timezone: 'Africa/Cairo', town: 'Alexandria',
           }}
         />
+        <div className='clock-popup'>
+
+        </div>
       </div>
     )
   }

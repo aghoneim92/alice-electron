@@ -1,0 +1,51 @@
+@import "../config";
+@import '~rc-tooltip/assets/bootstrap.css';
+
+.rc {
+  &-tooltip {
+    &-placement-right &-arrow {
+      border-right-color: whitesmoke;
+    }
+    &-inner {
+      color: black;
+      font-size: 1rem;
+      min-height: 10px;
+      background-color: whitesmoke;
+    }
+  }
+}
+
+.Sidebar {
+  position: absolute;
+  left: 0;
+  top: $navBarHeight;
+  bottom: 0;
+  width: 10vw;
+  background: rgba(70, 70, 70, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.AppButton {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: -1px 1px #999;
+
+  &:active {
+    transform: translate3d(-1px, 1px, 0);
+    box-shadow: none;
+  }
+}
+
+.AppIcon {
+}
