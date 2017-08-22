@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { ReactType, MouseEventHandler } from 'react'
+import { ReactType } from 'react'
 
 import Tooltip from 'rc-tooltip'
 

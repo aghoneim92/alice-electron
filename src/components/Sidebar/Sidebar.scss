@@ -20,7 +20,7 @@
   left: 0;
   top: $navBarHeight;
   bottom: 0;
-  width: 10vw;
+  width: $sidebarWidth;
   background: rgba(70, 70, 70, 0.5);
   display: flex;
   align-items: center;
@@ -30,8 +30,8 @@
 }
 
 .AppButton {
-  width: 4rem;
-  height: 4rem;
+  width: 4vw;
+  height: 4vw;
   border: 1px solid gray;
   border-radius: 1rem;
   background-color: whitesmoke;
@@ -45,7 +45,4 @@
     transform: translate3d(-1px, 1px, 0);
     box-shadow: none;
   }
-}
-
-.AppIcon {
 }

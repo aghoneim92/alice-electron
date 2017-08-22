@@ -11,6 +11,7 @@ import './OS.scss'
 import { Navbar } from '../Navbar/Navbar'
 import { WallpaperBlur } from '../WallpaperBlur/WallpaperBlur'
 import { Sidebar } from '../Sidebar/Sidebar'
+import { Windows } from '../Windows/Windows'
 
 const OSStyle = {
   backgroundImage: "url('./src/components/OS/background.jpg'",
@@ -64,6 +65,7 @@ export class OS extends React.PureComponent<{}> {
           apps={this.state.apps}
           onAppButtonClick={this.handleAppButtonClick}
         />
+        <Windows/>
       </div>
     )
   }

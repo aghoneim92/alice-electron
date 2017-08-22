@@ -1,0 +1,8 @@
+@import "../config";
+
+.Windows {
+  height: calc(100% - #{$navBarHeight});
+  margin-top: 20px;
+  margin-left: $sidebarWidth;
+  width: calc(100vw - #{$sidebarWidth});
+}
